@@ -19,7 +19,7 @@ Sample data
 
 For purpose of this training materials a `sample data including GRASS
 8 binaries
-<https://geo.fsv.cvut.cz/geoharmonizer/odse_workshop_2021/grass-gis-data.zip>`__ (690MB)
+<https://geo.fsv.cvut.cz/geoharmonizer/odse_workshop_2022/grass-gis-data.zip>`__ (690MB)
 has been created based on Open Data covering ODSE pilot tiles.
           
 Content
