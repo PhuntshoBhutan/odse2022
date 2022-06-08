@@ -18,7 +18,7 @@ Sample data
 ===========
 
 For purpose of this training materials a `sample data 
-<https://geo.fsv.cvut.cz/geoharmonizer/odse_workshop_2022/grass-gis-data.zip>`__ (605MB)
+<https://geo.fsv.cvut.cz/geoharmonizer/odse_workshop_2022/grass/geodata.zip>`__ (605MB)
 has been created based on Open Data covering ODSE pilot tiles.
           
 Content
