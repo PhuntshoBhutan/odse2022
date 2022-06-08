@@ -110,7 +110,7 @@ Corresponding command:
 
 .. code-block:: bash
 
-   r.mapcalc expression="dtm_slope = if(dtm_5606 > 500 && slope_aoi > 10, dtm_5606)"
+   r.mapcalc expression="dtm_slope = if(dtm_5606 > 500 && slope_aoi > 10, dtm_5606, null())"
 
 .. figure:: ../images/units/05/r-mapcalc-result.png
    :class: middle
