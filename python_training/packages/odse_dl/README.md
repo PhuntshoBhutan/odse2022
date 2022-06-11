@@ -77,7 +77,7 @@ Out[5]:
  't9': [PosixPath('input_raster_t9.tif')]}
 ```
 
-`get_sentinel_tiles()` is a convenience function that calls `input_data_to_tiles` on `data.sentinel_urls` to download the Geo-harmonizer Sentinel 2 seasonal mosaics for 2018 (with identical keyword arguments).
+`get_sentinel_tiles()` is a convenience function that calls `input_data_to_tiles` on all urls in `data.sentinel_urls` (which contains urls of Geo-harmonizer seasonal mosaics of P25, P50 and P75 of visible and infrared Sentinel 2 bands for 2018) to download the mosaic subsets (with identical keyword arguments as `input_data_to_tiles`).
 
 ```
 In [6]: files = data.get_sentinel_tiles()
@@ -93,6 +93,8 @@ Out[8]:
   PosixPath('input_data/lcv_blue_sentinel.s2l2a_p25_30m_0..0cm_2018.09.13..2018.12.01_eumap_epsg3035_v1.0_t1.tif'),
 ...
 ```
+
+If you'd like to cherry pick the sentinel layers to download, you can filter `data.sentinel_urls` and call `input_data_to_tiles()` on the output.
 
 #### Legend
 
