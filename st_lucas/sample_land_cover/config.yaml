@@ -6,7 +6,7 @@ project:
 # land cover & reference definitions 
 input:
   # raster map 
-  path: ./sample_land_cover
+  path: ./odse-workshop-2022/st_lucas/sample_land_cover
   in_ras: cz_land_cover_osm_2018.tif
   ndv: 0
   legend: legend.yaml
@@ -16,7 +16,7 @@ input:
 
 # validation report settings
 report:
-  path: ./sample_land_cover
+  path: ./odse-workshop-2022/st_lucas/sample_land_cover
   dir_name: 'lc_2018_validation'
 
 # validation points for GIS exploration 
