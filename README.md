@@ -15,3 +15,7 @@ To update your local version:
 ```bash
 git pull https://gitlab.com/geoharmonizer_inea/odse-workshop-2022.git
 ```
+
+## GRASS GIS 
+
+https://geo.fsv.cvut.cz/geoharmonizer/odse_workshop_2022/grass/html/
