@@ -17,7 +17,8 @@ target_files = {
     path.stem[-2:]: path
     for path in map(
         lambda i: _get_resource_path(f'target_t{i}.tif'),
-        (1, 2, 3, 4, 5, 7, 8, 9),
+        # (1, 2, 3, 4, 5, 7, 8, 9),
+        (1, 3, 4),
     )
 }
 
