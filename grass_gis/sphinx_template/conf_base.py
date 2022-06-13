@@ -40,16 +40,16 @@ if version_info[0] <= 1 and version_info[1] < 6:
 else:
     numfig = True
 
-extlinks = {'grasscmd': ('http://grass.osgeo.org/grass78/manuals/%s.html', ''),
-            'grasscmd2': ('http://grass.osgeo.org/grass78/manuals/%s', ''),
-            'grasscmdaddons': ('http://grass.osgeo.org/grass78/manuals/addons/%s.html', ''),
-            'wikipedia': ('http://en.wikipedia.org/wiki/%s', ''),
-            'epsg' : ('http://epsg.io/%s', 'EPSG:'),
-            'grass-script' : ('http://grass.osgeo.org/grass78/manuals/libpython/script.html#script.%s', ''),
-            'pygrass-gis' : ('http://grass.osgeo.org/grass78/manuals/libpython/pygrass.gis.html#pygrass.gis.%s', ''),
-            'pygrass-modules' : ('http://grass.osgeo.org/grass78/manuals/libpython/pygrass.modules.interface.html#pygrass.modules.interface.module.%s', ''),
-            'pygrass-vector' : ('http://grass.osgeo.org/grass78/manuals/libpython/pygrass.vector.html#pygrass.vector.%s', ''),
-            'pygrass-raster' : ('http://grass.osgeo.org/grass78/manuals/libpython/pygrass.raster.html#pygrass.raster.%s', ''),
+extlinks = {'grasscmd': ('https://grass.osgeo.org/grass-stable/manuals/%s.html', ''),
+            'grasscmd2': ('https://grass.osgeo.org/grass-stable/manuals/%s', ''),
+            'grasscmdaddons': ('https://grass.osgeo.org/grass-stable/manuals/addons/%s.html', ''),
+            'wikipedia': ('https://en.wikipedia.org/wiki/%s', ''),
+            'epsg' : ('https://epsg.io/%s', 'EPSG:'),
+            'grass-script' : ('https://grass.osgeo.org/grass-stable/manuals/libpython/script.html#script.%s', ''),
+            'pygrass-gis' : ('https://grass.osgeo.org/grass-stable/manuals/libpython/pygrass.gis.html#pygrass.gis.%s', ''),
+            'pygrass-modules' : ('https://grass.osgeo.org/grass-stable/manuals/libpython/pygrass.modules.interface.html#pygrass.modules.interface.module.%s', ''),
+            'pygrass-vector' : ('https://grass.osgeo.org/grass-stable/manuals/libpython/pygrass.vector.html#pygrass.vector.%s', ''),
+            'pygrass-raster' : ('https://grass.osgeo.org/grass-stable/manuals/libpython/pygrass.raster.html#pygrass.raster.%s', ''),
             'python3': ('https://docs.python.org/3/library/%s.html', ''),
             }
 

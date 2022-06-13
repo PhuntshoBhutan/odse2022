@@ -43,8 +43,8 @@ Let's change the computational region interactively from the Map Display.
    minimum: 181
    maximum: 1347   
 
-Computing DTM derivates
------------------------
+Computing DTM derivatives
+-------------------------
 
 Let's set up the computational region back to our :ref:`area of interest
 <aoi>`. Computation of slope or aspect from DTM is a common task
@@ -117,8 +117,8 @@ Corresponding command:
            
    Result of map algebra command.
 
-Automatization
---------------
+Automation
+----------
 
 Graphical Modeler
 ~~~~~~~~~~~~~~~~~
