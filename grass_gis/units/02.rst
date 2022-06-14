@@ -6,42 +6,42 @@ Starting a GRASS session requires basic knowledge about the software
 itself. GRASS motivates users to organize their data from an early
 beginning. GRASS uses a consistent structure of so-called
 **locations** and **mapsets** to organize its data. This has not 
-changed in GRASS 8.
+changed in GRASS 8. You may consider the structure as project /
+subproject order of disk folders.
 
 .. _location-mapset-section:
 
 The GRASS data structure has three levels:
 
-#. **Database directory.** A directory on local or network disc which
+#. **Database directory.** A directory on local disk or network drive which
    contains all data accessed by GRASS. It's usually a directory called
    :file:`grassdata` located in users' home directory. 
 
 #. **Location**. All geodata stored within one location must have the
    same spatial coordinate system (GRASS doesn't support on-the-fly
-   projection for several reasons).
+   projection for several reasons but offers it during data import).
 
 #. **Mapset**. Contains task-related data within one project. Helps
    organizing data into logical groups or to separate parallel work of
    different users on the same project.
 
-.. note:: In GRASS 7, a startup screen (:numref:`startup7`) appeared 
-   before entering a session. The user had to define the working
-   environment in which the GRASS session started. This step 
+.. note:: In the old GRASS 7, a startup screen (:numref:`startup7`)
+   appeared before entering a session. The user had to define the working
+   environment in which the GRASS session started. This step
    was required to enter GRASS. Such an approach is not so
    common. Applications like Esri ArcGIS or QGIS just start. Users
    load different data from various sources in different
    projections and start working on their project.
 
    .. _startup7:
-   
+
    .. figure:: ../images/units/02/startup-0.png
 
-      GRASS GIS startup screen in version 7.
+      GRASS GIS startup screen in old version 7.
 
-   
-Obstacles (especially for newcomers) related to the startup screen have
-been reduced in GRASS 8. The startup screen has been
-replaced by a completely new mechanism. On the first launch, GRASS 8 
+Obstacles (especially for newcomers) related to the old GRASS GIS 7
+startup screen have been reduced in GRASS 8. The old startup screen has
+been replaced by a completely new mechanism. On the first launch, GRASS 8
 sets up the *database directory* automatically and launches GUI in a
 default location *World LatLong WGS84*. Also, a sample *world* vector
 layer (in GRASS terminology *vector map*) is shown.
@@ -55,7 +55,7 @@ windows, see :numref:`startup8`.
 
 .. figure:: ../images/units/02/grass8-start.png
    :class: large
-           
+
    GRASS GIS 8 on startup.
 
 .. tip:: If GUI crashes, it can be started again by :grasscmd:`g.gui`
@@ -65,6 +65,21 @@ GRASS GUI guides users by means of tooltips as shown in
 :numref:`startup8`. The default location is not designed for real
 work. The next step is usually to create new "project(s)" (in GRASS
 terminology *a location*) with user-defined spatial coordinate systems.
+
+If interested in a common single-window GUI layout as shown in
+:numref:`startup8_single`,  change the GUI setting in the menu
+(Settings > Preferences > Workspace settings > General tab > Use single
+window mode. Note that it requires a GUI session restart to become active.
+
+.. _startup8_single:
+
+.. figure:: ../images/units/02/grass82_single_window_startup.png
+   :class: large
+
+   GRASS GIS 8 on startup in single-window mode. To switch, change the
+   settings in the menu (Settings > Preferences > Workspace settings >
+   General > Use single window mode (requires GUI session restart).
+
 
 .. _create-location:
 
@@ -76,8 +91,8 @@ By clicking on :item:`Create new Location` button in the tooltip (or by
 location can be easily created using :wikipedia:`EPSG` codes or
 user-defined geodata.
 
-In the first page of the location wizard, the location name is defined. 
-Optionally, also a short description can be added.
+In the first page of the location wizard, the location name is defined, e.g.
+`odse_workshop2022`. Optionally, also a short description can be added.
 
 .. figure:: ../images/units/02/create-location-0.png
 

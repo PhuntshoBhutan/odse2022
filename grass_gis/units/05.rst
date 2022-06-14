@@ -43,8 +43,8 @@ Let's change the computational region interactively from the Map Display.
    minimum: 181
    maximum: 1347   
 
-Computing DTM derivates
------------------------
+Computing DTM derivatives
+-------------------------
 
 Let's set up the computational region back to our :ref:`area of interest
 <aoi>`. Computation of slope or aspect from DTM is a common task
@@ -110,15 +110,15 @@ Corresponding command:
 
 .. code-block:: bash
 
-   r.mapcalc expression="dtm_slope = if(dtm_5606 > 500 && slope_aoi > 10, dtm_5606)"
+   r.mapcalc expression="dtm_slope = if(dtm_5606 > 500 && slope_aoi > 10, dtm_5606, null())"
 
 .. figure:: ../images/units/05/r-mapcalc-result.png
    :class: middle
            
    Result of map algebra command.
 
-Automatization
---------------
+Automation
+----------
 
 Graphical Modeler
 ~~~~~~~~~~~~~~~~~

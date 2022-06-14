@@ -60,7 +60,7 @@ the layer to be displayed and from the contextual menu choose
 
    Display layer from Data tab.
    
-After displaying data, go to the :item:`Display` tab and re-order
+After displaying data, go to the :item:`Layers` tab and re-order
 layers. From the contextual menu choose :item:`Properties` (or use
 double-click on layer).
 

@@ -8,7 +8,7 @@ Accessing GRASS modules
 
 GRASS GIS is a **modular system** that consists of several hundred
 *tools* called "modules". Modules are accessible from the Layer
-Manager menu, :item:`Modules` tab, or from the command prompt
+Manager menu, :item:`Tools` tab, or from the command prompt
 (:item:`Console` tab).
 
 Let's find a tool that creates a 1km *buffer* around the selected tile.
@@ -143,7 +143,7 @@ The color table of raster maps can be changed by the :grasscmd:`r.colors` comman
 Let's set the color for the raster map :map:`dtm_5606` to the *elevation* color table
 suitable for digital terrain models.
 
-The color table can be also easily set from the GUI in the :item:`Display` tab.
+The color table can be also easily set from the GUI in the :item:`Layers` tab.
 
 .. figure:: ../images/units/04/r-colors-menu.png
    
