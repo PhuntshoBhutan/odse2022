@@ -2,6 +2,12 @@
 
 ## Install
 
+Install dependencies:
+
+`pip install rasterio requests geopandas`
+
+Install `odse_dl`:
+
 `pip install "git+https://gitlab.com/geoharmonizer_inea/odse-workshop-2022.git#subdirectory=python_training/packages/odse_dl"`
 
 ## Usage
