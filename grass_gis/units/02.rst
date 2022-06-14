@@ -25,6 +25,20 @@ The GRASS data structure has three levels:
    organizing data into logical groups or to separate parallel work of
    different users on the same project.
 
+.. note:: In the old GRASS 7, a startup screen (:numref:`startup7`)
+   appeared before entering a session. The user had to define the working
+   environment in which the GRASS session started. This step
+   was required to enter GRASS. Such an approach is not so
+   common. Applications like Esri ArcGIS or QGIS just start. Users
+   load different data from various sources in different
+   projections and start working on their project.
+
+   .. _startup7:
+
+   .. figure:: ../images/units/02/startup-0.png
+
+      GRASS GIS startup screen in old version 7.
+
 Obstacles (especially for newcomers) related to the old GRASS GIS 7
 startup screen have been reduced in GRASS 8. The old startup screen has
 been replaced by a completely new mechanism. On the first launch, GRASS 8
