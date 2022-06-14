@@ -82,7 +82,7 @@ Example for Debian/Ubuntu OS:
    sudo apt install grass
 
 .. tip:: More recent versions of GRASS are available via `UbuntuGIS PPA
-   <https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-experimental>`__.
+   <https://launchpad.net/~ubuntugis/+archive/ubuntu/ubuntugis-unstable>`__.
    
 MS Windows
 ^^^^^^^^^^
@@ -93,8 +93,6 @@ There are basically two options:
 
 #. OSGeo4W network installer
 #. traditional standalone installer
-
-Choose the 64bit version.
 
 .. tip:: GRASS GIS is also part of the `QGIS installer on Windows
    <https://qgis.org/en/site/forusers/download.html>`__. So if QGIS is
